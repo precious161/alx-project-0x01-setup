@@ -1,9 +1,6 @@
 import React from "react";
-const Posts:React.FC=()=>{
-    return(
-        <div>
-
-        </div>
-    );
-}
+import Header from "./components/layout/Header";
+const Posts: React.FC = () => {
+  return <div></div>;
+};
 export default Posts;
