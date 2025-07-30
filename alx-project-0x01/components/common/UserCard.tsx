@@ -1,5 +1,5 @@
 import React from "react";
-import {UserProps} from "@/interfaces";
+import { UserProps } from "@/interfaces";
 const UserCard: React.FC<UserProps> = ({
   name,
   username,
@@ -8,7 +8,7 @@ const UserCard: React.FC<UserProps> = ({
   website,
   address: { city },
   company: { name: companyName },
-})  => {
+}) => {
   return (
     <div className="border rounded-lg p-4 shadow hover:shadow-md transition">
       <h2 className="text-xl font-semibold">
